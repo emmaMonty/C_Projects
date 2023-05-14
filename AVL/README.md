@@ -1,0 +1,1 @@
+This project is creating the AVL data structure. The user is given a list of 6 choice to do. The first option lets the user add a new element. The second choice is showing a balanced tree. The third choice is InOrder traversal. The fourth choice is PreOrder traversal. The fifth choice is PostOrder traversal.  The sixith option is the exit. 
