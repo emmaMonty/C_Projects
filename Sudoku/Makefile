@@ -1,8 +1,8 @@
 Main.exe: Main.o Sudoku.o
-	gcc -o Main.exe Main.o Sudoku.o
+	g++ -o Main.exe Main.o Sudoku.o
 
 Main.o: Sudoku.h
-	gcc -c Main.c
+	g++ -c Main.cpp
 
-Sudoku.o: Sudoku.c Sudoku.h
-	gcc -c Sudoku.c
+Sudoku.o: Sudoku.cpp Sudoku.h
+	g++ -c Sudoku.cpp
